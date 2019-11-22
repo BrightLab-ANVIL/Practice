@@ -11,7 +11,7 @@ Run the scripts like:
 x.T1_bet *input1* *input2* and 
 x.T1_seg *input1* *input2*
 
-Suggested things to try:
+Suggested steps:
 1. Fork this repository (central repo) to your own GitHub
 2. Clone your forked GitHub repo onto your local machine
 3. Run the code on your machine
