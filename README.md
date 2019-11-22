@@ -1,5 +1,5 @@
 # Practice
-==============
+
 A place to practice git (with code that processes MRI files using bash, AFNI and FSL)
 --------------
 
