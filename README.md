@@ -6,6 +6,7 @@ A place to practice git (with code that processes MRI files using bash, AFNI and
 This repository contains two scripts that pre-process a T1-weighted MRI dataset. 
 Use this to practice your git and github skills. 
 It assumes you have AFNI ans FSL installed.
+
 Run the scripts like:
 x.T1_bet *input1* *input2* and 
 x.T1_seg *input1* *input2*
