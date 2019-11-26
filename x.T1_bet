@@ -55,9 +55,9 @@ fi
 if [ ! -f ${outputdir}/${anat_prefix}_bet.nii.gz ]
 then
 
-  echo "*******************"
+  echo "**********************************************"
   echo "Running brain extraction on the ${anat_prefix}"
-  echo "*******************"
+  echo "**********************************************"
   bet "${inputfile}.nii.gz" ${outputdir}/${anat_prefix}_bet -m
 
 else
