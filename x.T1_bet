@@ -24,20 +24,20 @@ if [ ! -d ${outputdir} ]
 then
   mkdir ${outputdir}
 fi
-echo "*******************"
+echo "********************************"
 echo "Output directory is ${outputdir}"
-echo "*******************"
+echo "********************************"
 
 #Check the T1 data files are all there!
-echo "*******************"
+echo "**************************"
 echo "Input file is ${inputfile}"
-echo "*******************"
+echo "**************************"
 if [ ! -f "${inputfile}.nii.gz" ]
 then
-  echo "*******************"
+  echo "*****************************************"
   echo "Cannot locate the NIFTI file ${inputfile}"
   echo "...exiting!"
-  echo "*******************"
+  echo "*****************************************"
   exit
 fi
 
