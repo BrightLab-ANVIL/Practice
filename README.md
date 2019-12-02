@@ -28,11 +28,11 @@ The person in charge of the central repo will now review your changes, and has t
 
 *If* that all made sense, you might be thinking (1) What if someone updates the master branch on the central repo? and (2) How do I make sure 'master' on GitHub and 'master' on my local machine is up to date with the central repo?
 
-9.  *Locally*: set the upstream remote to be the central repo  **git remote add upstream [central-repo-address]**
-10. *Locally*: download the history of changes in the master branch of the upstream remote   **git fetch upstream/master**
-11. *Locally*: make sure you are in the master branch, and now merge the changes from the upstream remote  **git merge**  
+8.  *Locally*: set the upstream remote to be the central repo  **git remote add upstream [central-repo-address]**
+9. *Locally*: download the history of changes in the master branch of the upstream remote   **git fetch upstream/master**
+10. *Locally*: make sure you are in the master branch, and now merge the changes from the upstream remote  **git merge**  
     upstream/master
-12. *Locally*: push change back to the master branch of your fork
+11. *Locally*: push change back to the master branch of your fork
 
 --------------
 
