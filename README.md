@@ -12,26 +12,26 @@ x.T1_bet *input1* *input2* and
 x.T1_seg *input1* *input2*
 
 Suggested steps:
-	1. On GitHub: fork this repository ('central repo' in git_interactions_schematic.png ) to your own GitHub ('your fork' in
-     git_interactions_schematic.png)
-	2. On GitHub: make a new branch  - this is where you will do any edits, not on the master branch. 
-	3. Locally: Clone your fork to your local machine, so it's easy to edit the code.   git clone [forked-repo-address]
-	4. Locally: Move to your new branch git checkout [new-branch-name]
-	5. Locally: Check origin with git remote -v (it should be the address of your fork)
-	6. Locally: Push changes you made back to your fork  git push origin [new-branch-name] 
-	7. On GitHub: put in a pull request to compare new-branch of your fork and master-branch of the central repo. 
+1. On GitHub: fork this repository ('central repo' in git_interactions_schematic.png ) to your own GitHub ('your fork' in
+   git_interactions_schematic.png)
+2. On GitHub: make a new branch  - this is where you will do any edits, not on the master branch. 
+3. Locally: Clone your fork to your local machine, so it's easy to edit the code.   **git clone [forked-repo-address]**
+4. Locally: Move to your new branch **git checkout [new-branch-name]**
+5. Locally: Check origin with **git remote -v** (it should be the address of your fork)
+6. Locally: Push changes you made back to your fork  **git push origin [new-branch-name]** 
+7. On GitHub: put in a pull request to compare new-branch of your fork and master-branch of the central repo. 
 
 On GitHub: the person in charge of the central repo will now review your changes, and has the option of merging them into the master branch.
 
 -------------
 
-**If** that all made sense, you might be thinking (1) What if someone updates the master branch on the central repo? and (2) How do I make sure 'master' on GitHub and 'master' on my local machine is up to date with the central repo?
+*If* that all made sense, you might be thinking (1) What if someone updates the master branch on the central repo? and (2) How do I make sure 'master' on GitHub and 'master' on my local machine is up to date with the central repo?
 
-  9. Locally: set the upstream remote to be the central repo    git remote add upstream [central-repo-address]
-	10. Locally: download the history of changes in the master branch of the upstream remote   git fetch upstream/master  
-	11. Locally: make sure you are in the master branch, and now merge the changes from the upstream remote  git merge   
-  upstream/master
-	12. Locally: push change back to the master branch of your fork
+9.  Locally: set the upstream remote to be the central repo  **git remote add upstream [central-repo-address]**
+10. Locally: download the history of changes in the master branch of the upstream remote   **git fetch upstream/master**
+11. Locally: make sure you are in the master branch, and now merge the changes from the upstream remote  **git merge**  
+    upstream/master
+12. Locally: push change back to the master branch of your fork
 
 --------------
 
