@@ -20,8 +20,7 @@ You will also need a good text editor, like Atom. It will help if you can get At
 4. *Locally*: Move to your new branch **git checkout [new-branch-name]**
 
 *Optional*: Try to run the code, locally. You will need AFNI and FSL installed. Run the scripts from your terminal like:
-x.T1_bet *input1* *input2*
-x.T1_seg *input1* *input2*
+x.T1_bet *input1* *input2* and x.T1_seg *input1* *input2*
 
 5. *Locally*: Make minor changes to one of the files. Stage these changes **git add [file]** then commit these changes **git commit -m [message]**
 6. *Locally*: Check origin with **git remote -v** (it should be the address of your fork)
