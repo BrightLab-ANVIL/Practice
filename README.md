@@ -44,9 +44,9 @@ NOTE:
 
 Steps 10 and 11 can be done with one command (**git pull**) but doing it in two stages is 'safer' . **Git fetch** allows you to review changes and then decide to merge but **git pull** fetches and merges in one command.
 
-Working on your own code, locally and on GitHub can be a simpler process. You do not have to fork, but you can just push and pull directly from your local repo to your GitHub remote. 
+Working on your own code, locally and on GitHub is a simpler process. You do not have to fork, but you can just push and pull directly from your local repo to your GitHub remote, using branches if needed. 
 
-Some of the local commands you can do in Atom (text editor) but some you may have to do on the terminal. 
+Some of the git commands you can do in Atom (text editor) but some you may have to do on the terminal. 
 There are other git clients, and there is GitHub Desktop that may help with this process, using GUIs instead of terminal.
 
 
