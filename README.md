@@ -1,32 +1,31 @@
 # Practice
 
-A place to practice git (with code that processes MRI files using bash, AFNI and FSL).
+A place to practice git and GitHub
 --------------
 
-This repository contains two scripts that pre-process a T1-weighted MRI dataset. 
-Use this to practice your git and github skills. Don't worry about doing anything wrong - this repo is for practising. 
+This repository contains two bash scripts that pre-process a T1-weighted MRI dataset.
+Don't worry about doing anything wrong - this repo is for practising. 
+Please read this page on the lab website first: https://sites.northwestern.edu/anvil/wiki/lab-coding/git/
 
+This practice is written for MacOS.
 To do this practice you need git configured on your computer, and a GitHub account. 
-See this for quick tips: https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 You will also need a good text editor, like Atom. 
 
-Run the scripts like:
+**Suggested steps**:
+
+1. *On GitHub*: fork this repository ('central repo' in png file) to your own GitHub ('your fork' in png file)
+2. *Locally*: Clone your fork to your local machine.   **git clone [forked-repo-address]**
+3. *Locally*: Make a new branch  - this is where you will do any edits. **git branch [new-branch-name]**
+4. *Locally*: Move to your new branch **git checkout [new-branch-name]**
+5. *Locally*: Check origin with **git remote -v** (it should be the address of your fork)
+
+*Optional*: Try to run the code, locally. You will need AFNI and FSL installed. Run the scripts from your terminal like:
 x.T1_bet *input1* *input2* and 
 x.T1_seg *input1* *input2*
 
-In order to run the scripts you will need AFNI and FSL installed. 
-
-Suggested steps:
-1. *On GitHub*: fork this repository ('central repo' in git_interactions_schematic.png ) to your own GitHub ('your fork' in
-   git_interactions_schematic.png)
-2. *Locally*: Clone your fork to your local machine, so it's easy to edit the code.   **git clone [forked-repo-address]**
-3. *Locally*: Make a new branch  - this is where you will do any edits, not on the master branch. 
-4. *Locally*: Move to your new branch **git checkout [new-branch-name]**
-5. *Locally*: Check origin with **git remote -v** (it should be the address of your fork)
-(Optional: Try to run the code)
-6. *Locally*: Make changes to one of the files. Add and commit these changes. **git add [file]** then **git commit -m [message]**
-7. *Locally*: Push changes you made back to your fork  **git push origin [new-branch-name]** 
-8. *On GitHub*: put in a pull request to compare new-branch of your fork and master-branch of the central repo. 
+6. *Locally*: Make minor changes to one of the files. Stage these changes **git add [file]** then commit these changes **git commit -m [message]**
+7. *Locally*: Push changes you made back to your fork on GitHub  **git push origin [new-branch-name]** 
+8. *On GitHub*: put in a pull request to compare [new-branch] of your fork and master-branch of the central repo. 
 
 The person in charge of the central repo will now review your changes, and has the option of merging them into the master branch.
 
