@@ -10,7 +10,7 @@ Please read this page on the lab website before trying the steps below: https://
 
 This practice is written for MacOS.
 To do this practice you need git configured on your computer, and a GitHub account. 
-You will also need a good text editor, like Atom. 
+You will also need a good text editor, like Atom. It will help if you can get Atom to open from the terminal. 
 
 **Suggested steps**:
 
