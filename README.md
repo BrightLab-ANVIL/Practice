@@ -27,8 +27,9 @@ x.T1_bet *input1* *input2* and x.T1_seg *input1* *input2*
 9. *Locally*: If there are no conflicts from step (7), push changes you made in new-branch  **git push origin [new-branch]** 
 10. *On GitHub*: Make a pull request (PR) to compare new-branch and master branch. One person needs to review this PR.
 11. *On GitHub*: Once the PR has been approved, you should merge the new-branch into the master, AND delete the new-branch. 
-12. *Locally*: Delete new-branch **git branch -d [new-branch]**  OR make sure it is up to date with origin/master on GitHub. 
-13. *Locally*: Make sure your local master branch is up to date with the origin/master on GitHub. **git pull origin master** 
+12a. *Locally*: Delete new-branch **git branch -d [new-branch]**  OR update it (12b)
+12b. *Locally* Whilst in new-branch, make sure it is up to date with origin/master on GitHub. **git pull origin master** 
+13. *Locally*: Whilst in your local master branch, make sure it is up to date with the origin/master on GitHub. **git pull origin master** 
 
 IMPORTANT NOTES
 --------------
