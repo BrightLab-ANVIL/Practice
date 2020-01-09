@@ -4,7 +4,7 @@ Rachael Stickland
 --------------
 
 This repository contains two bash scripts that pre-process a T1-weighted MRI dataset.
-Don't worry about doing anything wrong - this repo is for practicing and permissions are set so you cannot change the original code without my approval. 
+Don't worry about doing anything wrong - this is a place for practicing and permissions are set so you cannot change the original code without my approval. 
 
 Please read this page on the lab website before trying the steps below: https://sites.northwestern.edu/anvil/wiki/lab-coding/git/
 
