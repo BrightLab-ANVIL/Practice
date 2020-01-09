@@ -23,7 +23,7 @@ x.T1_bet *input1* *input2* and x.T1_seg *input1* *input2*
 5. *Locally*: Make minor changes to one of the files. 
 6. *Locally*: Stage these changes **git add [file]** then commit these changes **git commit -m [message]**
 7. *Locally*: Check origin with **git remote -v** (it should be the address of the repo on github)
-8. *Locally*: Whilst in your new branch, check if there has been any changes to the GitHub master and pull any of these new changes **git push origin master** 
+8. *Locally*: Whilst in your new branch, check if there has been any changes to the GitHub master and pull any of these new changes **git pull origin master** 
 9. *Locally*: If there are no conflicts from step (7), push changes you made in your branch to GitHub  **git push origin [new-branch]** 
 10. *On GitHub*: Put in a pull request to compare new-branch and master branch of the central repo. One person in the lab needs to review this pull request. 
 11. *On GitHub*: Once the pull request has been approved, you or the reviewer should merge the new-branch into the master, AND delete the new-branch. 
