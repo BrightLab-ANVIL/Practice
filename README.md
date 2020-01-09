@@ -12,8 +12,8 @@ This practice is written for MacOS.
 To do this practice you need git configured on your computer, and a GitHub account. 
 You will also need a good text editor, like Atom. It will help if you can get Atom to open from the terminal. 
 
-1. *On GitHub*: Copy the address of the repo. 
-2. *Locally*: Clone this repo to your local machine.   **git clone [repo-address]**
+1. *On GitHub*: Copy the address of the repo https://github.com/BrightLab-ANVIL/Practice.git
+2. *Locally*: Clone this repo to your local machine.   **git clone https://github.com/BrightLab-ANVIL/Practice.git**
 3. *Locally*: Make a new branch  - this is where you will do any edits. **git branch [new-branch]**
 4. *Locally*: Move to your new branch **git checkout [new-branch]**
 
@@ -22,12 +22,13 @@ x.T1_bet *input1* *input2* and x.T1_seg *input1* *input2*
 
 5. *Locally*: Make minor changes to one of the files. 
 6. *Locally*: Stage these changes **git add [file]** then commit these changes **git commit -m [message]**
-7. *Locally*: Check origin with **git remote -v** (it should be the address of the repo on github)
-8. *Locally*: Whilst in your new branch, check if there has been any changes to the GitHub master and pull any of these new changes **git pull origin master** 
-9. *Locally*: If there are no conflicts from step (7), push changes you made in your branch to GitHub  **git push origin [new-branch]** 
-10. *On GitHub*: Put in a pull request to compare new-branch and master branch of the central repo. One person in the lab needs to review this pull request. 
-11. *On GitHub*: Once the pull request has been approved, you or the reviewer should merge the new-branch into the master, AND delete the new-branch. 
-12. *Locally*: Delete your new-branch OR make sure it is up to date with master branch on GitHub. Also make sure the local master branch is up to date with the master branch on GitHub.
+7. *Locally*: Check remote 'origin' is what you expect (Should be https://github.com/BrightLab-ANVIL/Practice.git) **git remote -v** 
+8. *Locally*: Whilst in new-branch, pull any new changes from origin/master **git pull origin master** 
+9. *Locally*: If there are no conflicts from step (7), push changes you made in new-branch  **git push origin [new-branch]** 
+10. *On GitHub*: Make a pull request (PR) to compare new-branch and master branch. One person needs to review this PR.
+11. *On GitHub*: Once the PR has been approved, you should merge the new-branch into the master, AND delete the new-branch. 
+12. *Locally*: Delete new-branch **git branch -d [new-branch]**  OR make sure it is up to date with origin/master on GitHub. 
+13. *Locally*: Make sure your local master branch is up to date with the origin/master on GitHub. **git pull origin master** 
 
 IMPORTANT NOTES
 --------------
