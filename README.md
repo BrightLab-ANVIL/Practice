@@ -3,6 +3,8 @@ A place to practice git and GitHub
 Rachael Stickland
 --------------
 
+TEST!!!!!!!!
+
 This repository contains two bash scripts that pre-process a T1-weighted MRI dataset.
 Don't worry about doing anything wrong - this is a place for practicing and permissions are set so you cannot change the original code without my approval. 
 
