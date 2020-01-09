@@ -24,7 +24,7 @@ if [ ! -d ${outputdir} ]
 then
   mkdir ${outputdir}
 fi
-echo "*******************"
+echo "************************************"
 echo "Output directory is ${outputdir}"
 echo "*******************"
 
