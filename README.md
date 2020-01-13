@@ -27,12 +27,10 @@ x.T1_bet *input1* *input2* and x.T1_seg *input1* *input2*
 8. *Locally*: You need to check if there have been any changes to origin/master whilst you have been making your changes. Whilst in your local master branch, pull any new changes from origin/master **git pull origin master**. If it says it is up to date, move to step 10. If changes were fetched and merged, move to step 9.
 9. *Locally*: In your new-branch, merge the new changes from master. **git merge master**
 10. *Locally*: If there are no conflicts from step (9), push changes you made in new-branch to your remote **git push origin [new-branch]**
-=======
 7. *Locally*: Check remote 'origin' is what you expect (Should be https://github.com/BrightLab-ANVIL/Practice.git) **git remote -v**
 8. *Locally*: You need to check if there have been any changes to origin/master whilst you have been making your changes. Whilst in your local master branch, pull any new changes from origin/master **git pull origin master**. If it says it is up to date, move to step 10. If  changes were fetched and merged, move to step 9.
 9. *Locally*: In your new-branch, merge the new changes from master. **git merge master** . You will see a pop-up asking you to confirm that you want to merge the master branch into your new-branch with a commit message. The easiest way to interact with this message is to make atom your default text-editor.
 10. *Locally*: If there are no conflicts from step (9), push changes you made in new-branch to your remote **git push origin [new-branch]**
->>>>>>> master
 11. *On GitHub*: Make a pull request (PR) to compare new-branch and master branch. One person needs to review this PR.
 12. *On GitHub*: Once the PR has been approved, you should merge the new-branch into the master, AND delete the new-branch.
 13. *Locally*: Delete new-branch **git branch -d [new-branch]** (You have to move out of the branch to do this **git checkout [NOT new-branch]**)
