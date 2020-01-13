@@ -23,10 +23,6 @@ x.T1_bet *input1* *input2* and x.T1_seg *input1* *input2*
 5. *Locally*: Make minor changes to one of the files.
 6. *Locally*: Stage these changes **git add [file]** then commit these changes **git commit -m [message]**
 7. *Locally*: Check remote 'origin' is what you expect (Should be https://github.com/BrightLab-ANVIL/Practice.git) **git remote -v**
-8. *Locally*: You need to check if there have been any changes to origin/master whilst you have been making your changes. Whilst in your local master branch, pull any new changes from origin/master **git pull origin master**. If it says it is up to date, move to step 10. If changes were fetched and merged, move to step 9. (Note: sometimes it will say that the master branch is up to date, even though it actually is not. It might be best practice to always follow this step to avoid confusion and conflict between branches)
-9. *Locally*: In your new-branch, merge the new changes from master. **git merge master**
-10. *Locally*: If there are no conflicts from step (9), push changes you made in new-branch to your remote **git push origin [new-branch]**
-7. *Locally*: Check remote 'origin' is what you expect (Should be https://github.com/BrightLab-ANVIL/Practice.git) **git remote -v**
 8. *Locally*: You need to check if there have been any changes to origin/master whilst you have been making your changes. Whilst in your local master branch, pull any new changes from origin/master **git pull origin master**. If it says it is up to date, move to step 10. If  changes were fetched and merged, move to step 9.
 9. *Locally*: In your new-branch, merge the new changes from master. **git merge master** . You will see a pop-up asking you to confirm that you want to merge the master branch into your new-branch with a commit message. The easiest way to interact with this message is to make atom your default text-editor.
 10. *Locally*: If there are no conflicts from step (9), push changes you made in new-branch to your remote **git push origin [new-branch]**
