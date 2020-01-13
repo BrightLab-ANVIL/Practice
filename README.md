@@ -24,18 +24,18 @@ x.T1_bet *input1* *input2* and x.T1_seg *input1* *input2*
 6. *Locally*: Stage these changes **git add [file]** then commit these changes **git commit -m [message]**
 <<<<<<< HEAD
 7. *Locally*: Check remote 'origin' is what you expect (Should be https://github.com/BrightLab-ANVIL/Practice.git) **git remote -v**
-8. *Locally*: You need to check if there have been any changes to origin/master whilst you have been making your changes. Whilst in your local master branch, pull any new changes from origin/master **git pull origin master**. If it says it is up to date, move to step 10. If  changes were fetched and merged, move to step 9.
+8. *Locally*: You need to check if there have been any changes to origin/master whilst you have been making your changes. Whilst in your local master branch, pull any new changes from origin/master **git pull origin master**. If it says it is up to date, move to step 10. If changes were fetched and merged, move to step 9.
 9. *Locally*: In your new-branch, merge the new changes from master. **git merge master**
 10. *Locally*: If there are no conflicts from step (9), push changes you made in new-branch to your remote **git push origin [new-branch]**
 =======
-7. *Locally*: Check remote 'origin' is what you expect (Should be https://github.com/BrightLab-ANVIL/Practice.git) **git remote -v** 
-8. *Locally*: You need to check if there have been any changes to origin/master whilst you have been making your changes. Whilst in your local master branch, pull any new changes from origin/master **git pull origin master**. If it says it is up to date, move to step 10. If  changes were fetched and merged, move to step 9. 
-9. *Locally*: In your new-branch, merge the new changes from master. **git merge master** . EXPLAIN MERGE POP-UP HERE
-10. *Locally*: If there are no conflicts from step (9), push changes you made in new-branch to your remote **git push origin [new-branch]** 
+7. *Locally*: Check remote 'origin' is what you expect (Should be https://github.com/BrightLab-ANVIL/Practice.git) **git remote -v**
+8. *Locally*: You need to check if there have been any changes to origin/master whilst you have been making your changes. Whilst in your local master branch, pull any new changes from origin/master **git pull origin master**. If it says it is up to date, move to step 10. If  changes were fetched and merged, move to step 9.
+9. *Locally*: In your new-branch, merge the new changes from master. **git merge master** . You will see a pop-up asking you to confirm that you want to merge the master branch into your new-branch with a commit message. The easiest way to interact with this message is to make atom your default text-editor.
+10. *Locally*: If there are no conflicts from step (9), push changes you made in new-branch to your remote **git push origin [new-branch]**
 >>>>>>> master
 11. *On GitHub*: Make a pull request (PR) to compare new-branch and master branch. One person needs to review this PR.
 12. *On GitHub*: Once the PR has been approved, you should merge the new-branch into the master, AND delete the new-branch.
-13. *Locally*: Delete new-branch **git branch -d [new-branch]** (You have to move out of the branch to do this)
+13. *Locally*: Delete new-branch **git branch -d [new-branch]** (You have to move out of the branch to do this **git checkout [NOT new-branch]**)
 14. *Locally*: Whilst in your local master branch, make sure it is up to date with the origin/master on GitHub. **git pull origin master**
 
 IMPORTANT NOTES
@@ -49,6 +49,8 @@ See these as temporary places to do edits. People should not typically have perm
 
 *Permissions*
 The master branch on ANVIL GitHub will be protected. This means that people cannot push to this branch, but can only do pull requests that require at least one reviewer. Other branches will not be protected. Everyone in the organization will have write privileges, so don't edit other people's branches without permission!
+
+If you create a repository, be sure to edit the settings to protect the master branch of this new repository. This will ensure everyone is following the same workflow across projects.  
 
 *Fetch and merge*
 An alternative "safer" way to do **git pull** is to do **git fetch** then **git merge**.
