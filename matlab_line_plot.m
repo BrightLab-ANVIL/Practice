@@ -1,4 +1,4 @@
-%% Plot a line 
+%% Plot a line
 
 % description here
 
@@ -10,3 +10,4 @@ plot(x,y)
 t = [0:0.1:2*pi]
 sint = sin(t)
 plot(t,sint)
+plot(t,cos(t))
