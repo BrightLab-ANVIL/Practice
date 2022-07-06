@@ -1,7 +1,7 @@
 A place to practice git and GitHub
 --------------
 
-This repository contains three scripts: one written in BASH, one written in Python and one written in MATLAB.
+This repository contains three scripts: one written in BASH, one written in Python and one written in MATLAB!
 
 Feel free to change any of them, to test your git and GitHub skills!
 
