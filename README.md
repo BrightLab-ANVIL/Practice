@@ -7,7 +7,7 @@ Feel free to change any of them, to test your git and GitHub skills!
 
 Don't worry about doing anything wrong - this is a place for practicing and permissions are set so you cannot change the master branch without a PR anyway.
 
-For guidance on our GitHub workflow, please read this page on the lab website:
+For guidance on our GitHub workflow, please read this page on the lab internal website:
 https://sites.northwestern.edu/anvil/wiki/lab-coding/git/
 
 Ryan's edit!
