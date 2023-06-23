@@ -2,8 +2,8 @@
 
 % description here
 
-x=1:2:10;
-y=1:2:10;
+x=1:.5:20;
+y=1:.5:20;
 
 plot(x,y)
 
