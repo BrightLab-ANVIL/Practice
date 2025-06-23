@@ -1,4 +1,4 @@
-A place to practice git and GitHub
+A place to practice git and GitHub reading
 --------------
 
 This repository contains three scripts: one written in BASH, one written in Python and one written in MATLAB!
