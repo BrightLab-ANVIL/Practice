@@ -4,6 +4,7 @@ A place to practice git and GitHub
 This repository contains three scripts: one written in BASH, one written in Python and one written in MATLAB!
 
 Feel free to change any of them, to test your git and GitHub skills!
+(For example, add your name to the list of users in the bash script.)
 
 Don't worry about doing anything wrong - this is a place for practicing and permissions are set so you cannot change the master branch without a PR anyway.
 
