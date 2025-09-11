@@ -12,5 +12,8 @@ echo ""
 
 echo "Here is a list of awesome ANVIL members who are learning git:"
 echo "Molly, after many years a PI needs a refresher!"
+echo "Andrew should go here once we figure this out. (Andrew was here)"
+echo "Molly's change is going here, trying to conflict with an updated main branch"
 echo "Andrew should go here once we figure this out. (Andrew was here!)"
 echo "Jingxuan was here."
+
