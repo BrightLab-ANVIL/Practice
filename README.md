@@ -1,4 +1,4 @@
-A place to practice git and GitHub
+A place to practice git and GitHub reading
 --------------
 
 This repository contains three scripts: one written in BASH, one written in Python and one written in MATLAB!
@@ -10,3 +10,5 @@ Don't worry about doing anything wrong - this is a place for practicing and perm
 
 For guidance on our GitHub workflow, please read this page on the lab internal website:
 https://sites.northwestern.edu/anvil/wiki/lab-coding/git/
+
+JG try
